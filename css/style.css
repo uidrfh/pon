@@ -1,0 +1,217 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+background: rgb(227, 176, 176);
+}
+.container{
+    max-width: 1100px;
+    margin: 0 auto ;
+}
+.container_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 36px;
+}
+.header__logo{
+display: flex;
+align-items: center;
+gap: 20px;
+}
+.header__title{
+    color: rgb(255, 255, 255);
+    font-family: Nico Moji;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.nav__list{
+    display: flex;
+    list-style: none;
+    gap: 63px;
+}
+.nav__itom{
+    color: rgb(228, 228, 228);
+    font-family: Nico Moji;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.hero_block{
+    background-color: rgb(189, 85, 85);
+}
+.container_hero_block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 125px 0px 180px;
+}
+.hero_block_content{
+    max-width: 502px;
+}
+.hero_block__title{
+    
+    color: rgb(228, 228, 228);
+    font-family: Nico Moji;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.hero_block__text{
+    color: rgb(228, 228, 228);
+font-family: Roboto;
+font-size: 20px;
+font-weight: 400;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: left;
+margin: 30px 0px 41px;
+
+}
+.hero_block__link{
+    border-radius: 6px;
+
+box-shadow: 0px 2px 13px 0px rgba(226, 158, 0, 0.48);
+
+/* orange */
+background: linear-gradient(135.00deg, rgb(226, 163, 0),rgb(226, 149, 0) 100%);
+padding:14px 88px 15px 88px;
+text-decoration: none;
+color: rgb(0, 0, 0);
+font-family: Nico Moji;
+font-size: 18px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0%;
+text-align: left;
+
+}
+.about{
+    background: rgb(187, 86, 86);
+}
+.container_about{
+    padding: 70px 0 158px;
+
+}
+.about__title{
+    color: rgb(228, 228, 228);
+font-family: Nico Moji;
+font-size: 48px;
+font-weight: 400;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 97.47;
+}
+.about__content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.rate__list{
+list-style: none;
+}
+.video{
+    background: rgb(147, 139, 66);
+}
+.container_video{
+    padding: 169px 0 94px;
+}
+.video__title{
+    color: rgb(219, 255, 0);
+font-family: Nico Moji;
+font-size: 48px;
+font-weight: 400;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 27px;
+}
+.video__video{
+    width: 100%;
+    height: 561.25px;
+    border: 50px solid rgb(65, 65, 65);
+    /* Gray2 */
+    box-sizing: border-box;
+border-radius: 29px;
+
+box-shadow: 0px 4px 15px 0px rgba(27, 27, 27, 0.28);
+/* Gray2 */
+box-sizing: border-box;
+
+}
+.galery{
+    background-color: rgb(240, 170, 129);;
+    padding: 143px 0px 143px;
+
+}
+.galery__title{
+    color: rgb(228, 228, 228);
+    font-family: Nico Moji;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.galery__list{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-around;
+    gap: 20px;
+}
+.galery__item{
+    width: 30%;
+
+}
+.galery__img{
+    width: 100%;
+    height: 100%;
+}
+.footer{
+    background: rgb(202, 99, 99);
+}
+.container_footer{
+    padding: 60.25px 0 65.75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__list{
+    list-style: none;
+    display: flex;
+}
+.footer__title{
+    color: rgb(228, 228, 228);
+font-family: Nico Moji;
+font-size: 30px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+}
+.footer__text{
+    color: rgb(255, 255, 255);
+    font-family: Nico Moji;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 164.06%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 18px;
+}
+.footer__item:not(:last-child){
+margin-right: 40px;
+}
